@@ -1,9 +1,8 @@
 # Image Caption Generator using CNN-LSTM (InceptionV3)
 
 ## Overview
-This project implements an Automatic Image Captioning System using a CNN-LSTM architecture.  
-It combines InceptionV3 (CNN) for image feature extraction and LSTM (RNN) for generating meaningful captions.
-
+This project implements an Automatic Image Captioning System using a CNN-LSTM architecture with a transfer learning approach. It leverages a pretrained InceptionV3 model (trained on ImageNet) to extract rich image features, which are then passed to an LSTM network to generate meaningful captions.
+The use of transfer learning helps improve performance and reduces training time by utilizing learned visual features instead of training a CNN from scratch.
 The model is trained on the Flickr8k dataset, enabling it to generate human-like descriptions for images.
 
 ---
