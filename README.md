@@ -19,7 +19,7 @@ The model is trained on the Flickr8k dataset, enabling it to generate human-like
 ## Dataset
 - Dataset Used: Flickr8k  
 - Contains:
-  - ~8,000 images
+  - 8,092 images
   - 5 captions per image  
 
 Dataset is automatically downloaded in the code:
